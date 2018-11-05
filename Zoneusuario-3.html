@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Untitle</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="assets/Libs/owl.carousel.min.css"/>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,500,700,700i" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+        
+    </head>
+    <body>
+        <main class="zoneUsuario-3">
+            <div class="border container">
+                <div class="row title">
+                    <div class="col-lg-6 col-md-4 col-sm-6 offset-lg-2 offset-md-2">
+                        <h1 class="mt-sm-3">Zone Usuario</h1>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 text-right">
+                        <a class="" href="##"><i class="fas fa-user-alt mr-2"></i>Perfil</a>
+                        <a class="" href="##"><i class="fas fa-sign-out-alt mr-2"></i>Salir</a>
+                    </div>
+                </div>
+                <div class="row pb-5">
+                    <div class="col-lg-2 col-md-4 offset-lg-4 ml-auto addFriend">
+                        <div class="mt-md-3 ml-sm-4" style="width: 10rem;">
+                          <img class="border card-img-top" src="assets/img/avatar-3.png" alt="Avatar image">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 mb-5 ml-4 pt-4">
+                        <form method="post" enctype="multipart/form-data">
+                          <div>
+                            <label class="mb-2" for="profile_pic">Upload photo</label>
+                            <input class="mb-2" type="file" id="profile_pic" name="profile_pic"
+                                  accept=".jpg, .jpeg, .png">
+                          </div>
+                          <div class="">
+                            <button class="btn btn-success mt-3">Submit</button>
+                          </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row">
+                    <h3 class="h3 col-8 offset-md-2 text-left">Album de foto</h3>
+                    <div class="border col-lg-8 offset-lg-2 pt-2">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item"><img class="img-fluid" src="assets/img/avatar-3.png"/></div>
+                            <div class="item"><img class="img-fluid" src="assets/img/avatar-3.png"/></div>
+                            <div class="item"><img class="img-fluid" src="assets/img/avatar-3.png"/></div>
+                            <div class="item"><img class="img-fluid" src="assets/img/avatar-3.png"/></div>
+                            <div class="item"><img class="img-fluid" src="assets/img/avatar-3.png"/></div>
+                            <div class="item"><img class="img-fluid" src="assets/img/avatar-3.png"/></div>
+                            <div class="item"><img class="img-fluid" src="assets/img/avatar-3.png"/></div>
+                            <div class="item"><img class="img-fluid" src="assets/img/avatar-3.png"/></div>
+                            <div class="item"><img class="img-fluid" src="assets/img/avatar-3.png"/></div>
+                            <div class="item"><img class="img-fluid" src="assets/img/avatar-3.png"/></div>
+                            <div class="item"><img class="img-fluid" src="assets/img/avatar-3.png"/></div>
+                            <div class="item"><img class="img-fluid" src="assets/img/avatar-3.png"/></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src="assets/Libs/jQuery/jquery-3.3.1.min.js"></script>
+        <script src="assets/Libs/bootstrap/popper.min.js"></script>
+        <script src="assets/Libs/bootstrap/bootstrap.min.js"></script>
+        <script src="assets/Libs/owl.carousel.min.js"></script>
+        <script>
+            $('.owl-carousel').owlCarousel({
+                loop:true,
+                margin:10,
+                responsiveClass:true,
+                responsive:{
+                    0:{
+                        items:2,
+                        nav:false,
+                        loop:true
+                    },
+                    600:{
+                        items:3,
+                        nav:false,
+                        loop:true
+                    },
+                    1000:{
+                        items:3,
+                        nav:true,
+                        loop:true
+                    },
+                    1200:{
+                        items:4,
+                        nav:true,
+                        loop:true
+                    }
+                }
+            })
+            
+        </script>
+    </body>
+</html>        

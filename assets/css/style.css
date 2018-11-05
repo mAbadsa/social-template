@@ -1,0 +1,449 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.homeBtn{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 28px;
+    text-align: left;
+    color: #28a745
+}
+.homeBtn:hover{
+    color: #48d765
+}
+/*-----Start main template ------*/
+.mainTemplate{
+    padding: 50px;
+}
+.mainTemplate .container{
+    margin: 0 auto;
+    width: 800px;
+}
+.mainTemplate a{
+    margin-left: 5px;
+    color: #28a745;
+    text-decoration: none;
+    transition: 0.4s;
+}
+.mainTemplate a:hover{
+    color: #48d765;
+    text-decoration: underline;
+    transition: 0.4s;
+}
+.mainTemplate .imgBox{
+    max-width: 400px;
+    text-align: center;
+}
+.mainTemplate .imgBox img{
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 3px;
+}
+.btn-success{
+    width: 200px;
+    height: 50px;
+    font-size: 22px;
+    transition: 0.3s;
+}
+.mainTemplate .formBox{
+    max-width: 400px;
+}
+form .form-group label{
+    margin-left: 5px;
+    font-size: 20px;
+}
+form .form-control{
+    height: 50px;
+    color: #333;
+    font-size: 18px;
+}
+form .form-control::placeholder{
+    font-size: 18px;
+}
+/*-----End main template ------*/
+
+/*///////////////\\\\\\\\\\\\\\\\\\\*/
+
+/*-----Start Recuperar template ------*/
+.Recuperar{
+    padding: 50px;
+    width: 100%;
+    height: auto;
+}
+.Recuperar h1{
+/*    padding-top: 50px;*/
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    color: #28a745;
+    text-transform: uppercase;
+}
+.Recuperar .formBox{
+    width: 700px;
+}
+.Recuperar .formBox label{
+    margin-right: 20px;
+    margin-left: 0;
+    margin-bottom: 0;
+    font-size: 26px;
+}
+.Recuperar .form-control{
+    display: inline-block;
+
+    width: 600px;
+}
+.Recuperar .btn{
+    display: block;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+@media (max-width: 768px) {
+    .Recuperar{
+        padding: 30px;
+    }
+    .Recuperar h1{
+        padding-top: 0;
+        margin-top: 15px;
+        font-size: 24px;
+    }
+    .Recuperar label{
+        display: block;
+        padding-bottom: 10px;
+    }
+    .Recuperar form{
+/*        padding: 10px 70px;*/
+    }
+    .Recuperar .form-control{
+        display: block;
+        width: 100%;
+    }
+}
+/*
+@media (max-width: 575.98px) { 
+    .Recuperar h1{
+        padding-top: 0;
+        margin-top: 15px;
+        font-size: 24px;
+    }
+}
+*/
+/*-----End Recuperar template ------*/
+/*///////////////\\\\\\\\\\\\\\\\\\\*/
+/*-------End Nuevo template --------*/
+.Nuevo h1{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    color: #28a745;
+    text-transform: uppercase;
+}
+.Nuevo .formBox{
+    width: 400px;
+}
+.Nuevo .form-control{
+    display: block;
+    width: 100%;
+}
+.Nuevo form label[for=select]{
+    margin-left: 5px;
+    font-size: 20px;
+}
+.Nuevo form select{
+    margin-top: 10px;
+    width: 150px;
+    height: 35px;
+    padding: 5px 10px;
+    font-size: 18px;
+}
+.Nuevo .btn{
+    display: block;
+    margin: 0 auto;
+    margin-top: 85px;
+}
+
+@media (max-width: 991.98px) {
+    .Nuevo{
+        width: 100%;
+    }
+    .Nuevo h1{
+        padding-bottom: 35px;
+    }
+    .Nuevo .formBox{
+        width: 800px;
+    }
+    .Nuevo label{
+        display: block;
+        padding-bottom: 10px;
+    }
+/*
+    .Nuevo form{
+        padding: 10px 70px;
+    }
+*/
+    .Nuevo .form-control{
+        display: block;
+        width: 100%;
+    }
+    .Nuevo form select{
+        width: 150px;
+        height: 35px;
+        padding: 5px 10px;
+        font-size: 18px;
+    }
+}
+/*
+@media (max-width: 768px) {
+    .Nuevo{
+        padding: 20px;
+    }
+}
+@media (max-width: 575.98px) { 
+    .Nuevo h1{
+        font-size: 28px;
+    }
+}*/
+
+/*-----End Nuevo template ------*/
+/*///////////////\\\\\\\\\\\\\\\\\\\*/
+/*-------Start zoneUsuario template --------*/
+.zoneUsuario{
+    padding: 50px;
+}
+.zoneUsuario .title{
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+.zoneUsuario h1{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    color: #28a745;
+    text-transform: uppercase;
+}
+.zoneUsuario .title a{
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 90px;
+    color: #28a745;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.4s;
+}
+.zoneUsuario .title a:hover{
+    color: #48c765;
+    text-decoration: underline;
+    transition: 0.4s;
+}
+.zoneUsuario .crearMensaje{
+    font-size: 28px;
+}
+.zoneUsuario textarea{
+    width: 100%;
+    resize: none;
+}
+.zoneUsuario .MensajeOfFriends .titleMsg{
+    font-size: 28px;
+}
+.zoneUsuario .MensajeOfFriends .msg{
+    margin-bottom: 10px;
+    padding: 10px;
+    min-width: 100%;
+    background-color: #e5e5e5;
+}
+.zoneUsuario .card-text{
+    color: #28a745;  
+}
+.zoneUsuario .addFriend{
+    font-size: 28px; 
+}
+@media (max-width: 991.98px) {
+    .zoneUsuario{
+        width: 100%;
+    }
+    .zoneUsuario h1{
+        padding-bottom: 35px;
+        font-size: 36px;
+    }
+    .zoneUsuario .title a{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+    .zoneUsuario .card{
+        display: inline-block;
+        margin-left: 30px;
+    }
+    .zoneUsuario .card .card-img-top{
+        max-height: 150px;
+        min-height: 150px;
+    }
+
+}
+@media (max-width: 575px) {
+    .zoneUsuario h1{
+        padding-bottom: 15px;
+        font-size: 28px;
+    }
+    .zoneUsuario .addFriend{
+        font-size: 22px; 
+    }
+    .zoneUsuario .crearMensaje{
+        font-size: 22px;
+    }
+    .zoneUsuario .MensajeOfFriends .titleMsg{
+        font-size: 22px;
+    }
+    .zoneUsuario .MensajeOfFriends .msg{
+        font-size: 12px
+    }
+    .zoneUsuario .card .card-img-top{
+        max-height: 150px;
+        min-height: 150px;
+    }
+}
+/*-----End zoneUsuario template ------*/
+/*///////////////\\\\\\\\\\\\\\\\\\\*/
+/*-------Start zoneUsuario-2 template --------*/
+.zoneUsuario-2{
+    padding: 50px;
+}
+.zoneUsuario-2 .title{
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+.zoneUsuario-2 .title a{
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 90px;
+    color: #28a745;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.4s;
+}
+.zoneUsuario-2 .title a:hover{
+    color: #48c765;
+    text-decoration: underline;
+    transition: 0.4s;
+}
+.zoneUsuario-2 h1{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    color: #28a745;
+    text-transform: uppercase;
+}
+.zoneUsuario-2 .card-text{
+    color: #28a745;  
+}
+.zoneUsuario-2 .addFriend{
+    position: relative;
+    font-size: 22px; 
+}
+.friendInfo{
+    position: absolute;
+    top: 50px;
+}
+@media (max-width: 991.98px) {
+    .zoneUsuario-2{
+        width: 100%;
+    }
+    .zoneUsuario-2 h1{
+        padding-bottom: 35px;
+        font-size: 36px;
+    }
+    .zoneUsuario-2 .card{
+        display: inline-block;
+        margin-left: 30px;
+    }
+    .zoneUsuario-2 .card .card-img-top{
+        max-height: 150px;
+        min-height: 150px;
+    }
+
+}
+@media (max-width: 575px) {
+    .zoneUsuario-2 h1{
+        padding-bottom: 15px;
+        font-size: 22px;
+    }
+    .zoneUsuario-2 .title a{;
+        margin-top: 5px;
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    .friendInfo{
+        position: static;
+        top: 50px;
+    }
+}
+
+
+/*-----End zoneUsuario-2 template ------*/
+/*///////////////\\\\\\\\\\\\\\\\\\\*/
+/*-------Start zoneUsuario-3 template --------*/
+.zoneUsuario-3{
+    width: 100%;
+    padding: 50px;
+}
+.zoneUsuario-3 .title{
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+.zoneUsuario-3 .title a{
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 30px;
+    color: #28a745;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.4s;
+}
+.zoneUsuario-3 .title a:hover{
+    color: #48c765;
+    text-decoration: underline;
+    transition: 0.4s;
+}
+.zoneUsuario-3 h1{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    color: #28a745;
+    text-transform: uppercase;
+}
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev{
+    width: 100px;
+    background-color: #28a745;
+    color: #fff;
+    font-size: 25px;
+}
+.owl-nav{
+    margin-top: 15px;
+    text-align: center
+}
+.owl-carousel .owl-nav button.owl-next{
+    margin-left: 10px;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    margin-right: 10px;
+}
+@media (max-width: 575.98px) { 
+    .zoneUsuario-3{
+        padding: 10px;
+    }
+    .zoneUsuario-3 .title h1{
+        padding-bottom: 15px;
+        font-size: 22px;
+    }
+    .zoneUsuario-3 .h3{
+        font-size: 22px;
+    }
+    .zoneUsuario-3 .title a{
+        margin-top: 5px;
+        margin-left: 10px;
+        font-size: 14px;
+    }
+}
